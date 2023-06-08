@@ -12,6 +12,7 @@ describe('airtable', () => {
               cy.get('.pointer').click();
               cy.get('.pointer').click();
             }
+            }
         
             else {
                 cy.wrap($emailInput).type('pihoitraureipoi-7422@yopmail.com');
